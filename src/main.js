@@ -18,7 +18,7 @@ for (const file of commandFiles) {
 
 
 client.once('ready', () => {
-    console.log('Codelyon is online!');
+    console.log(`${client.user.tag} is online`);
 });
 
 client.on('message', message => {
